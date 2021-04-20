@@ -1,0 +1,26 @@
+{
+  "name": "cyf-api-doc-server",
+  "version": "1.0.0",
+  "description": "Test swagger API documentation server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leroy-douglas/cyf-api-doc-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leroy-douglas/cyf-api-doc-server/issues"
+  },
+  "homepage": "https://github.com/leroy-douglas/cyf-api-doc-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "swagger-jsdoc": "^5.0.1",
+    "swagger-ui-express": "^4.1.6"
+  }
+}
